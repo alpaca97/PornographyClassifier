@@ -1,5 +1,7 @@
 var main = function(classifier) { # 
 
+title = document.getElementById("mySubmit");
+// https://developer.mozilla.org/en-US/docs/Web/API/FormData/get
 };
 
 

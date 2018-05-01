@@ -1,0 +1,68 @@
+<html>
+	<meta charset="UTF-8">
+	<link rel="stylesheet"
+	href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+
+	<h1>Porn Classifier</h1>
+<!-- for submit button: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit -->
+<form>
+	<div>
+    <label for="enter_title">Enter your title here</label>
+    <input id="text" type="text" name="text">
+</div>
+<div>
+    <!-- string will be "text=usertext" -->
+    <input type="submit" id="myTitle" value="Is it Porn?">
+</div>
+</form>
+
+<p id="demo"></p>
+<button onclick="myFunction()">Test</button>
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTitle").value;
+		document.getElementById("demo").innerHTML=x;
+	}
+</script>
+<!-- <section class="w3-container w3-content w3-center" style="max-width:600px">
+<p class="w3-justify">
+We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section> -->
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+    Brought to you by <a href="https://github.com/alpaca97/PornographyClassifier" target="_blank">Concerned Citizens</a>
+  </p>
+  <!-- let's take a pic and link to that ;)  -->
+</footer>
+</body></html>
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+
+GOOD FOR DISPLAYING
+<input type="submit" id="mySubmit" value="Submit form">
+
+<p>Click the "Try it" button to display the text displayed on the Submit button.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("mySubmit").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html> --> 
