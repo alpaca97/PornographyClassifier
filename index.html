@@ -13,15 +13,15 @@
 </div>
 <div>
     <!-- string will be "text=usertext" -->
-    <input type="submit" id="myTitle" value="Is it Porn?">
+    <input type="submit" id="myTitle" value="Is it Porn?" onclick="myFunction();return false;">
 </div>
 </form>
 
 <p id="demo"></p>
-<button onclick="myFunction()">Test</button>
 <script>
 	function myFunction() {
 		var x = document.getElementById("text").value;
+		
 		document.getElementById("demo").innerHTML=x;
 	}
 </script>
