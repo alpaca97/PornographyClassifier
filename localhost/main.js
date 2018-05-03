@@ -1,8 +1,7 @@
-var main = function(classifier) { 
-
-
-
-title = document.getElementById("title").value;
+var main = function() { 
+	var x = document.getElementById("text").value;
+	console.log(x);
+	document.getElementById("demo").innerHTML=x;
 // https://developer.mozilla.org/en-US/docs/Web/API/FormData/get
 };
 
